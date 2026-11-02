@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs (PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Data files (Prevents pushing large datasets)
+data/*
+!data/.gitkeep
+*.csv
+*.db
+*.sqlite3
+*.parquet
